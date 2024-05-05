@@ -1,0 +1,43 @@
+.pages{
+  height: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  width: 744px;
+  hr{
+    height: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .span{
+    opacity: 50%;
+    cursor: pointer;
+  }
+  .spanActive{
+     color: #4198C5;
+      opacity: 100%;
+   }
+  .newNote{
+    margin-right: 10px;
+    margin-left: auto;
+  }
+  .plus{
+    width: 26px;
+    height: 26px;
+    border: solid 1px #616F82;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+  }
+}
+
+.content{
+  background-color: white;
+  height: 784px;
+  box-shadow: 0px 1px 4px 0px #1E1E1E1A;
+  border-radius: 4px;
+}

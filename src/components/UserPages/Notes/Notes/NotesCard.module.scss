@@ -1,0 +1,16 @@
+.container{
+  display: flex;
+  padding-bottom: 20px;
+  .noteContainer{
+    font-size: 14px;
+    width: 680px;
+    line-height: 24px;
+    .noteDate{
+      opacity: 50%;
+    }
+  }
+  .dropDownContainer{
+   margin-left: auto;
+  }
+}
+

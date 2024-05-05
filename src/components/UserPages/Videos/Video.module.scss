@@ -1,0 +1,5 @@
+@import '../PageContainer.scss';
+
+.container{
+  @include container;
+}

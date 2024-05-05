@@ -1,0 +1,35 @@
+.dropDown{
+  font-size: 25px;
+  font-weight: bolder;
+  position: relative;
+  display: inline-block;
+  min-height: 34px;
+  max-height: 34px;
+  min-width: 34px;
+  max-width: 34px;
+  border-radius: 100%;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  .dots{
+    position: absolute;
+    right: 6px;
+    bottom: 8px;
+  }
+}.active{
+   background: #4198C5;
+   color: white;
+ }
+.menu{
+  display: block;
+  width: 230px;
+  height: 88px;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  right: 17px;
+  bottom: -77px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 10px 0px #16171816;
+}
+
