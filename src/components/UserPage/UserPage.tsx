@@ -31,7 +31,7 @@ const UserPage = () => {
     }
     return (
         <>
-            <Userhat></Userhat>
+            <Userhat/>
             <div className={styles.pages}>
                 <span id={UserPages.NOTES}
                       onClick={(e)=>handleClick(e)}

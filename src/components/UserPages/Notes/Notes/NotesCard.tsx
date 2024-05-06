@@ -20,7 +20,7 @@ const NotesCard: FC<INoteCardProps> = (props) => {
         <div className={styles.container}>
             <div className={styles.noteContainer}>
                 <p><span className={styles.noteDate}>{noteDate} </span> {noteText}</p>
-                {somePng?<img src={somePng}/>:null}
+                {somePng?<div className={styles.someImgBack}><img className={styles.someImg} src={somePng}/></div>:null}
             </div>
             <div className={styles.dropDownContainer}>
                 <DropDown/>

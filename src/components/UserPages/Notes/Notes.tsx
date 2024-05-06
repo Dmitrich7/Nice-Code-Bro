@@ -11,7 +11,7 @@ export const Notes = () => {
             />
             <NotesCard
                 noteDate={"20.12.2019"}
-                somePng={'../../../../public/7c229622bcbe6884f7be41a0fd6d814f.png'}
+                somePng={require('/public/map.png')}
                 noteText={"Улучшенное питание мышечной ткани ускоряет замещение различных посттравматических дефектов в самих мышцах, костной ткани, связках и сухожилиях."}
             />
         </div>

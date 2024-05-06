@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import styles from './App.module.scss'
 import UserList from "./components/UserList/UserList";
@@ -7,6 +7,11 @@ import Controls from "./components/Controls/Controls";
 import UserPage from "./components/UserPage/UserPage";
 
 export const App = () => {
+    const [showCheckboxes, setShowCheckboxes] = useState(false);
+
+    const handleClick = ()=>{
+        setShowCheckboxes(prevState => !prevState)
+    }
     return (
         <div className={styles.app}>
             <Navbar/>
@@ -14,8 +19,12 @@ export const App = () => {
                 <div className={styles.contentWrapper}>
                     <div className={styles.userWrapper}>
                         <SearchBox/>
-                        <Controls/>
-                        <UserList/>
+                        <Controls
+                            showCheckboxes={handleClick}
+                        />
+                        <UserList
+                            checkbox={showCheckboxes}
+                        />
                     </div>
                     <div className={styles.userPageWrapper}>
                         <UserPage/>

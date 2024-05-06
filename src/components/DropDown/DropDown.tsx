@@ -12,7 +12,10 @@ const DropDown = () => {
                     ...
                 </span>
             {active?<div className={styles.menu}>
-
+                <div className={styles.btnGroup}>
+                    <span className={styles.btn}>Изменить</span>
+                    <span className={styles.btn}>Удалить</span>
+                </div>
             </div>:null}
         </div>
     );

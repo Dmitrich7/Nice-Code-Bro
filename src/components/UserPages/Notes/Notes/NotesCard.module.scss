@@ -8,6 +8,19 @@
     .noteDate{
       opacity: 50%;
     }
+    .someImgBack{
+      width: 209px;
+      height: 144px;
+      background-color: #CDCDCD;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .someImg{
+        width: 199px;
+        height: 134px;
+      }
+    }
   }
   .dropDownContainer{
    margin-left: auto;

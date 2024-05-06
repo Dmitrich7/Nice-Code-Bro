@@ -1,8 +1,14 @@
-import React, {useState} from 'react';
+import React, {FC, useState} from 'react';
 import UserCard from "../UserCard/UserCard";
 
-const UserList = () => {
-    const [checkbox,setCheckbox] = useState(true)
+interface IUserListProps{
+    checkbox: boolean;
+}
+
+const UserList: FC<IUserListProps> = (props) => {
+    const {
+       checkbox
+    }=props;
 
     return (
         <>
